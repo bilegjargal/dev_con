@@ -1,0 +1,35 @@
+{
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "terminal.integrated.fontSize": 12,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "editor.formatOnSave": true,
+  "workbench.colorTheme": "Dracula",
+  "window.titleBarStyle": "custom",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "breadcrumbs.enabled": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.settings.editor": "json",
+  "editor.fontLigatures": true,
+  "terminal.integrated.fontFamily": "monospace",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "java.errors.incompleteClasspath.severity": "ignore",
+  "window.zoomLevel": -1,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "terminal.integrated.rendererType": "dom",
+  "files.autoSave": "off",
+  "editor.cursorStyle": "underline",
+}
