@@ -8,6 +8,15 @@ class Dashboard extends Component {
     this.props.getCurrentProfile();
   }
   render() {
+    const { user } = this.props.auth;
+    const { profile, loading } = this.props.profile;
+
+    let dashboardContent;
+
+    if (profile === null || loading) {
+    } else {
+    }
+
     return (
       <div>
         <h1>Dashboard</h1>
@@ -16,7 +25,18 @@ class Dashboard extends Component {
   }
 }
 
+const mapStateToProps = state => ({
+  profile: state.profile,
+  auth: state.auth
+});
+
+Dashboard.propTypes = {
+  getCurrentProfile: PropTypes.func.isRequired,
+  auth: PropTypes.object.isRequired,
+  profile: PropTypes.object.isRequired
+};
+
 export default connect(
-  null,
+  mapStateToProps,
   { getCurrentProfile }
 )(Dashboard);
